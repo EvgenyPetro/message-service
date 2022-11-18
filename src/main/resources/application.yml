@@ -1,0 +1,11 @@
+server:
+  port: 9001
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/messages
+    password: root
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
