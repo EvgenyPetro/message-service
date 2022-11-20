@@ -20,4 +20,5 @@ public class AccountRequestDto {
     private LocalDate dateOfBirth;
     private String phone;
     private String picture;
+    private String password;
 }
